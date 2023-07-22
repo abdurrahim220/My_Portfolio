@@ -34,7 +34,7 @@ const Banner = () => {
             ]} speed={50} className='text-accent' wrapper='span' repeat={Infinity} />
           </motion.div>
           <motion.p   variants={fadeIn('up', 0.7)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='mb-8 max-w-lg mx-auto lg:mx-0'>
-          Welcome to my portfolio!!! I am a passionate Mern stack web developer with expertise in HTML, CSS, JavaScript, React, Express.js, Node.js, and MongoDB. With a strong foundation in front-end development, I strive to create captivating user interfaces and seamless user experiences. I enjoy turning ideas into functional and visually appealing websites and Web Applications.
+          Welcome to my portfolio!!! I am a creative MERN Stack Web Developer based in Bangladesh, and I'm very passionate and dedicated to my work.... 
           </motion.p>
           <motion.div   variants={fadeIn('up', 0.5)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
             <button className='btn btn-lg'>

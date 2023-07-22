@@ -27,10 +27,10 @@ const About = () => {
        variants={fadeIn('left',0.5)}
        initial='hidden' whileInView={'show'} viewport={{once:false,amount:0.3}}
       className='flex-1'>
-        <h2 className='h2 text-accent'>About me.</h2>
-        <h3 className='h3'>I am a freelancer front end developer with over 5 years exprience</h3>
+        <h2 className='h2 text-accent'>About Me!</h2>
+        <h3 className='h3'>I am a Frontend end developer with over 5 years exprience</h3>
         <p className='mb-6'>
-          lorem ipusm dolor sit , amet consecterur adipisicing elit . door natus omnis inventore quas beatae betase illo nulla . officiis magni omnis molestias.
+         Frontend developer, I created web pages with UI / UX user interface, I have years of Experience and many clients are happy with the projects carried out.
         </p>
         <div className='flex gap-x-6 mb-12'>
           <div>
@@ -63,10 +63,7 @@ const About = () => {
           </div>
         </div>
         <div className='flex gap-x-8 items-center'>
-          <button className='btn btn-lg'>Contact Me</button>
-          <Link to='' className='text-gradient btn-link'>
-          My PortFolio
-          </Link>
+          <button className='btn btn-lg'>Download My CV</button>
         </div>
       </motion.div>
 
