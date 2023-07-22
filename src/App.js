@@ -8,6 +8,7 @@ import Services from './components/Services';
 import Work from './components/Work';
 import Contact from './components/Contact';
 import Skills from './components/Skills';
+import Qualification from './components/Qualifiation/Qualification';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Nav />
       <About />
       <Skills />
+      <Qualification/>
       <Services />
       <Work />
       <Contact />
