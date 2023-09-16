@@ -10,7 +10,7 @@ import React from 'react'
 
 const Qualification = () => {
   return (
-    <section className='qualification section'>
+    <section id='qualification' className='qualification section'>
       <h2 className='section_title  text-2xl font-semibold text-center items-center'>
         Qualification
       </h2>
